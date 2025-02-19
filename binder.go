@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/j0urneyk/bob/internal/mappings"
+	"github.com/j0urneyK/bob/internal/mappings"
 )
 
 //nolint:gochecknoglobals

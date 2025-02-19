@@ -8,9 +8,9 @@ import (
 
 	"github.com/aarondl/opt/omit"
 	"github.com/google/go-cmp/cmp"
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/mysql/dialect"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/mysql/dialect"
+	"github.com/j0urneyK/bob/orm"
 )
 
 type WithAutoIncr struct {

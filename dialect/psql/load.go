@@ -7,12 +7,12 @@ import (
 	"reflect"
 
 	"github.com/aarondl/opt"
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/psql/dialect"
-	"github.com/j0urneyk/bob/dialect/psql/sm"
-	"github.com/j0urneyk/bob/internal"
-	"github.com/j0urneyk/bob/mods"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/psql/dialect"
+	"github.com/j0urneyK/bob/dialect/psql/sm"
+	"github.com/j0urneyK/bob/internal"
+	"github.com/j0urneyK/bob/mods"
+	"github.com/j0urneyK/bob/orm"
 	"github.com/stephenafamo/scan"
 )
 

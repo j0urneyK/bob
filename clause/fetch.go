@@ -5,7 +5,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/j0urneyk/bob"
+	"github.com/j0urneyK/bob"
 )
 
 type Fetch struct {

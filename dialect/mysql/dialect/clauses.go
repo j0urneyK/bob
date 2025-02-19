@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/expr"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/expr"
 )
 
 type modifiers[T any] struct {

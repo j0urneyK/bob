@@ -1,10 +1,10 @@
 package um
 
 import (
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/sqlite/dialect"
-	"github.com/j0urneyk/bob/internal"
-	"github.com/j0urneyk/bob/mods"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/sqlite/dialect"
+	"github.com/j0urneyK/bob/internal"
+	"github.com/j0urneyK/bob/mods"
 )
 
 func With(name string, columns ...string) dialect.CTEChain[*dialect.UpdateQuery] {

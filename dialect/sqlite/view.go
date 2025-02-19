@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/sqlite/dialect"
-	"github.com/j0urneyk/bob/dialect/sqlite/sm"
-	"github.com/j0urneyk/bob/internal"
-	"github.com/j0urneyk/bob/internal/mappings"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/sqlite/dialect"
+	"github.com/j0urneyK/bob/dialect/sqlite/sm"
+	"github.com/j0urneyK/bob/internal"
+	"github.com/j0urneyK/bob/internal/mappings"
+	"github.com/j0urneyK/bob/orm"
 	"github.com/stephenafamo/scan"
 )
 

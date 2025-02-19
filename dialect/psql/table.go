@@ -4,14 +4,14 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/psql/dialect"
-	"github.com/j0urneyk/bob/dialect/psql/dm"
-	"github.com/j0urneyk/bob/dialect/psql/im"
-	"github.com/j0urneyk/bob/dialect/psql/um"
-	"github.com/j0urneyk/bob/internal"
-	"github.com/j0urneyk/bob/internal/mappings"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/psql/dialect"
+	"github.com/j0urneyK/bob/dialect/psql/dm"
+	"github.com/j0urneyK/bob/dialect/psql/im"
+	"github.com/j0urneyK/bob/dialect/psql/um"
+	"github.com/j0urneyK/bob/internal"
+	"github.com/j0urneyK/bob/internal/mappings"
+	"github.com/j0urneyK/bob/orm"
 )
 
 type setter[T any] interface {

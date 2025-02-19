@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/j0urneyk/bob"
+	"github.com/j0urneyK/bob"
 )
 
 var ErrNoLockStrength = errors.New("No lock strength specified")

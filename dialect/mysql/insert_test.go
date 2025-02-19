@@ -3,10 +3,10 @@ package mysql_test
 import (
 	"testing"
 
-	"github.com/j0urneyk/bob/dialect/mysql"
-	"github.com/j0urneyk/bob/dialect/mysql/im"
-	"github.com/j0urneyk/bob/dialect/mysql/sm"
-	testutils "github.com/j0urneyk/bob/test/utils"
+	"github.com/j0urneyK/bob/dialect/mysql"
+	"github.com/j0urneyK/bob/dialect/mysql/im"
+	"github.com/j0urneyK/bob/dialect/mysql/sm"
+	testutils "github.com/j0urneyK/bob/test/utils"
 )
 
 func TestInsert(t *testing.T) {

@@ -1,8 +1,8 @@
 package mysql
 
 import (
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/mysql/dialect"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/mysql/dialect"
 )
 
 func Update(queryMods ...bob.Mod[*dialect.UpdateQuery]) bob.BaseQuery[*dialect.UpdateQuery] {
