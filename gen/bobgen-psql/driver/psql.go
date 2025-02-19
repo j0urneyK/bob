@@ -24,10 +24,9 @@ type (
 	Interface  = drivers.Interface[any, any, IndexExtra]
 	DBInfo     = drivers.DBInfo[any, any, IndexExtra]
 	IndexExtra = struct {
-		NullsFirst    []bool   `json:"nulls_first"` // same length as Columns
-		NullsDistinct bool     `json:"nulls_not_distinct"`
-		Where         string   `json:"where_clause"`
-		Include       []string `json:"include"`
+		NullsFirst []bool   `json:"nulls_first"` // same length as Columns
+		Where      string   `json:"where_clause"`
+		Include    []string `json:"include"`
 	}
 )
 
@@ -464,7 +463,6 @@ func (d *driver) Indexes(ctx context.Context) (drivers.DBIndexes[IndexExtra], er
           ARRAY(SELECT unnest(x.indoption) & 1 = 1 ) AS descending,
           ARRAY(SELECT unnest(x.indoption) & 2 = 2 ) AS nulls_first,
           x.indisunique as unique,
-          x.indnullsnotdistinct as nulls_not_distinct,
           pg_get_expr(x.indpred, x.indrelid) AS where_clause,
           cols.cols[x.indnkeyatts+1:] AS included_cols,
           obj_description(x.indexrelid, 'pg_class') AS comment
@@ -486,18 +484,17 @@ func (d *driver) Indexes(ctx context.Context) (drivers.DBIndexes[IndexExtra], er
 	ORDER BY n.nspname, t.relname, x.indisprimary DESC, i.relname;`
 
 	type indexColumns struct {
-		SchemaName       string
-		TableName        string
-		IndexName        string
-		Type             string
-		IndexCols        pq.StringArray // a list of column names and/or expressions
-		Descending       pq.BoolArray
-		NullsFirst       pq.BoolArray
-		Unique           bool
-		NullsNotDistinct bool
-		WhereClause      sql.NullString
-		IncludedCols     pq.StringArray
-		Comment          sql.NullString
+		SchemaName   string
+		TableName    string
+		IndexName    string
+		Type         string
+		IndexCols    pq.StringArray // a list of column names and/or expressions
+		Descending   pq.BoolArray
+		NullsFirst   pq.BoolArray
+		Unique       bool
+		WhereClause  sql.NullString
+		IncludedCols pq.StringArray
+		Comment      sql.NullString
 	}
 	res, err := stdscan.All(ctx, d.conn, scan.StructMapper[indexColumns](), query, d.config.Schemas)
 	if err != nil {
@@ -514,10 +511,9 @@ func (d *driver) Indexes(ctx context.Context) (drivers.DBIndexes[IndexExtra], er
 			Unique:  r.Unique,
 			Comment: r.Comment.String,
 			Extra: IndexExtra{
-				NullsFirst:    r.NullsFirst,
-				NullsDistinct: r.NullsNotDistinct,
-				Where:         r.WhereClause.String,
-				Include:       r.IncludedCols,
+				NullsFirst: r.NullsFirst,
+				Where:      r.WhereClause.String,
+				Include:    r.IncludedCols,
 			},
 		}
 		for i, colName := range r.IndexCols {
