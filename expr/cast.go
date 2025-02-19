@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/stephenafamo/bob"
+	"github.com/j0urneyk/bob"
 )
 
 func Cast(e bob.Expression, typname string) bob.Expression {

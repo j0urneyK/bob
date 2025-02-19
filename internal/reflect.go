@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/expr"
-	"github.com/stephenafamo/bob/internal/mappings"
-	"github.com/stephenafamo/bob/orm"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/expr"
+	"github.com/j0urneyk/bob/internal/mappings"
+	"github.com/j0urneyk/bob/orm"
 )
 
 //nolint:gochecknoglobals

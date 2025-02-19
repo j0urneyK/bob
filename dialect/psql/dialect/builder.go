@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/expr"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/expr"
 )
 
 //nolint:gochecknoglobals

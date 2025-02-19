@@ -9,10 +9,10 @@ import (
 	"strings"
 	"sync"
 
+	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
+	"github.com/j0urneyk/bob/gen/drivers"
+	"github.com/j0urneyk/bob/gen/importers"
 	"github.com/lib/pq"
-	helpers "github.com/stephenafamo/bob/gen/bobgen-helpers"
-	"github.com/stephenafamo/bob/gen/drivers"
-	"github.com/stephenafamo/bob/gen/importers"
 	"github.com/stephenafamo/scan"
 	"github.com/stephenafamo/scan/stdscan"
 	"github.com/volatiletech/strmangle"

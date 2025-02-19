@@ -1,11 +1,11 @@
 package um
 
 import (
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/clause"
-	"github.com/stephenafamo/bob/dialect/psql/dialect"
-	"github.com/stephenafamo/bob/internal"
-	"github.com/stephenafamo/bob/mods"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/clause"
+	"github.com/j0urneyk/bob/dialect/psql/dialect"
+	"github.com/j0urneyk/bob/internal"
+	"github.com/j0urneyk/bob/mods"
 )
 
 func With(name string, columns ...string) dialect.CTEChain[*dialect.UpdateQuery] {

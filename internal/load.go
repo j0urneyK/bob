@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/orm"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/orm"
 	"github.com/stephenafamo/scan"
 )
 

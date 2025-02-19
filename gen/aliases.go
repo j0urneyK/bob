@@ -5,7 +5,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/stephenafamo/bob/gen/drivers"
+	"github.com/j0urneyk/bob/gen/drivers"
 	"github.com/volatiletech/strmangle"
 )
 

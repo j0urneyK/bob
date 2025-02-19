@@ -7,7 +7,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/stephenafamo/bob"
+	"github.com/j0urneyk/bob"
 )
 
 type Raw []byte

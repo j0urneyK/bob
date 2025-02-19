@@ -4,8 +4,8 @@ import (
 	"context"
 	"database/sql"
 
+	"github.com/j0urneyk/bob/gen/drivers"
 	"github.com/lib/pq"
-	"github.com/stephenafamo/bob/gen/drivers"
 	"github.com/stephenafamo/scan"
 	"github.com/stephenafamo/scan/stdscan"
 )

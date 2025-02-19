@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/stephenafamo/bob"
+	"github.com/j0urneyk/bob"
 	"github.com/stephenafamo/scan"
 )
 

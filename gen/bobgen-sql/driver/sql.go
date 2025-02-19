@@ -9,12 +9,12 @@ import (
 	"path/filepath"
 
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
+	"github.com/j0urneyk/bob/gen"
+	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
+	psqlDriver "github.com/j0urneyk/bob/gen/bobgen-psql/driver"
+	sqliteDriver "github.com/j0urneyk/bob/gen/bobgen-sqlite/driver"
+	"github.com/j0urneyk/bob/gen/drivers"
 	"github.com/lib/pq"
-	"github.com/stephenafamo/bob/gen"
-	helpers "github.com/stephenafamo/bob/gen/bobgen-helpers"
-	psqlDriver "github.com/stephenafamo/bob/gen/bobgen-psql/driver"
-	sqliteDriver "github.com/stephenafamo/bob/gen/bobgen-sqlite/driver"
-	"github.com/stephenafamo/bob/gen/drivers"
 )
 
 type Config struct {

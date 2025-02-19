@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/stephenafamo/bob"
+	"github.com/j0urneyk/bob"
 )
 
 type CTE struct {

@@ -12,11 +12,11 @@ import (
 	"testing"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/stephenafamo/bob/gen"
-	helpers "github.com/stephenafamo/bob/gen/bobgen-helpers"
-	"github.com/stephenafamo/bob/gen/drivers"
-	testfiles "github.com/stephenafamo/bob/test/files"
-	testgen "github.com/stephenafamo/bob/test/gen"
+	"github.com/j0urneyk/bob/gen"
+	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
+	"github.com/j0urneyk/bob/gen/drivers"
+	testfiles "github.com/j0urneyk/bob/test/files"
+	testgen "github.com/j0urneyk/bob/test/gen"
 )
 
 var (

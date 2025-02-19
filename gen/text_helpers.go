@@ -3,7 +3,7 @@ package gen
 import (
 	"strings"
 
-	"github.com/stephenafamo/bob/orm"
+	"github.com/j0urneyk/bob/orm"
 	"github.com/volatiletech/strmangle"
 )
 

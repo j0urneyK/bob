@@ -7,12 +7,12 @@ import (
 	"reflect"
 
 	"github.com/aarondl/opt"
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/dialect/sqlite/dialect"
-	"github.com/stephenafamo/bob/dialect/sqlite/sm"
-	"github.com/stephenafamo/bob/internal"
-	"github.com/stephenafamo/bob/mods"
-	"github.com/stephenafamo/bob/orm"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/dialect/sqlite/dialect"
+	"github.com/j0urneyk/bob/dialect/sqlite/sm"
+	"github.com/j0urneyk/bob/internal"
+	"github.com/j0urneyk/bob/mods"
+	"github.com/j0urneyk/bob/orm"
 	"github.com/stephenafamo/scan"
 )
 

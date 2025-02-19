@@ -1,9 +1,9 @@
 package sqlite
 
 import (
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/dialect/sqlite/dialect"
-	"github.com/stephenafamo/bob/expr"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/dialect/sqlite/dialect"
+	"github.com/j0urneyk/bob/expr"
 )
 
 func RawQuery(q string, args ...any) bob.BaseQuery[expr.Clause] {

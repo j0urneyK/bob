@@ -7,12 +7,12 @@ import (
 	"os"
 	"testing"
 
+	psqlDriver "github.com/j0urneyk/bob/gen/bobgen-psql/driver"
+	sqliteDriver "github.com/j0urneyk/bob/gen/bobgen-sqlite/driver"
+	"github.com/j0urneyk/bob/gen/drivers"
+	testfiles "github.com/j0urneyk/bob/test/files"
+	testgen "github.com/j0urneyk/bob/test/gen"
 	_ "github.com/jackc/pgx/v5/stdlib"
-	psqlDriver "github.com/stephenafamo/bob/gen/bobgen-psql/driver"
-	sqliteDriver "github.com/stephenafamo/bob/gen/bobgen-sqlite/driver"
-	"github.com/stephenafamo/bob/gen/drivers"
-	testfiles "github.com/stephenafamo/bob/test/files"
-	testgen "github.com/stephenafamo/bob/test/gen"
 )
 
 func TestPostgres(t *testing.T) {

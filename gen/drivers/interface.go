@@ -8,7 +8,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/stephenafamo/bob/gen/importers"
+	"github.com/j0urneyk/bob/gen/importers"
 )
 
 // Interface abstracts either a side-effect imported driver or a binary

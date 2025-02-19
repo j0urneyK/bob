@@ -1,10 +1,10 @@
 package dm
 
 import (
-	"github.com/stephenafamo/bob"
-	"github.com/stephenafamo/bob/clause"
-	"github.com/stephenafamo/bob/dialect/mysql/dialect"
-	"github.com/stephenafamo/bob/mods"
+	"github.com/j0urneyk/bob"
+	"github.com/j0urneyk/bob/clause"
+	"github.com/j0urneyk/bob/dialect/mysql/dialect"
+	"github.com/j0urneyk/bob/mods"
 )
 
 func With(name string, columns ...string) dialect.CTEChain[*dialect.DeleteQuery] {
