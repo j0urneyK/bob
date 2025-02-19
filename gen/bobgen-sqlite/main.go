@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/j0urneyk/bob/gen"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/bobgen-sqlite/driver"
+	"github.com/j0urneyK/bob/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/bobgen-sqlite/driver"
 	"github.com/urfave/cli/v2"
 )
 

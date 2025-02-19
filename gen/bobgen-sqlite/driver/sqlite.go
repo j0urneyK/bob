@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/aarondl/opt/null"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
 	"github.com/stephenafamo/scan"
 	"github.com/stephenafamo/scan/stdscan"
 	"github.com/volatiletech/strmangle"

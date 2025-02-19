@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
-	testfiles "github.com/j0urneyk/bob/test/files"
-	testgen "github.com/j0urneyk/bob/test/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
+	testfiles "github.com/j0urneyK/bob/test/files"
+	testgen "github.com/j0urneyK/bob/test/gen"
 	_ "github.com/jackc/pgx/v5/stdlib"
 )
 

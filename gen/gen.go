@@ -14,8 +14,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/orm"
 	"github.com/volatiletech/strmangle"
 	"golang.org/x/mod/modfile"
 )

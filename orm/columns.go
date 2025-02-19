@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/j0urneyk/bob"
+	"github.com/j0urneyK/bob"
 )
 
 // NewColumns returns a [Columns] object with the given column names

@@ -12,9 +12,9 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/j0urneyk/bob/gen"
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/gen/importers"
+	"github.com/j0urneyK/bob/gen"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen/importers"
 	"github.com/knadh/koanf/parsers/yaml"
 	"github.com/knadh/koanf/providers/confmap"
 	"github.com/knadh/koanf/providers/env"
@@ -216,7 +216,7 @@ func Types() drivers.Types {
 		"types.Text[netip.Addr, *netip.Addr]": {
 			Imports: importers.List{
 				`"net/netip"`,
-				`"github.com/j0urneyk/bob/types"`,
+				`"github.com/j0urneyK/bob/types"`,
 			},
 			RandomExpr: `var addr [4]byte
                 rand.Read(addr[:])
@@ -226,7 +226,7 @@ func Types() drivers.Types {
 		},
 		"pgtypes.Inet": {
 			Imports: importers.List{
-				`"github.com/j0urneyk/bob/types/pgtypes"`,
+				`"github.com/j0urneyK/bob/types/pgtypes"`,
 			},
 			RandomExpr: `var addr [4]byte
                 rand.Read(addr[:])
@@ -236,7 +236,7 @@ func Types() drivers.Types {
 			RandomExprImports: importers.List{`"crypto/rand"`, `"net/netip"`},
 		},
 		"pgtypes.Macaddr": {
-			Imports: importers.List{`"github.com/j0urneyk/bob/types/pgtypes"`},
+			Imports: importers.List{`"github.com/j0urneyK/bob/types/pgtypes"`},
 			RandomExpr: `addr, _ := net.ParseMAC(f.Internet().MacAddress())
                 return pgtypes.Macaddr{Addr: addr}`,
 			RandomExprImports:  importers.List{`"net"`},
@@ -332,11 +332,11 @@ func Types() drivers.Types {
 			RandomExpr: `return decimal.New(f.Int64Between(0, 1000), 0)`,
 		},
 		"pgtypes.LSN": {
-			Imports:    importers.List{`"github.com/j0urneyk/bob/types/pgtypes"`},
+			Imports:    importers.List{`"github.com/j0urneyK/bob/types/pgtypes"`},
 			RandomExpr: `return pgtypes.LSN(f.UInt64())`,
 		},
 		"pgtypes.TxIDSnapshot": {
-			Imports: importers.List{`"github.com/j0urneyk/bob/types/pgtypes"`},
+			Imports: importers.List{`"github.com/j0urneyK/bob/types/pgtypes"`},
 			RandomExpr: `active := make([]string, f.IntBetween(1, 5))
                 for i := range active {
                     active[i] = strconv.FormatUint(f.UInt64(), 10)
@@ -352,7 +352,7 @@ func Types() drivers.Types {
 		},
 		"pgtypes.HStore": {
 			DependsOn: []string{"string"},
-			Imports:   importers.List{`"github.com/j0urneyk/bob/types/pgtypes"`},
+			Imports:   importers.List{`"github.com/j0urneyK/bob/types/pgtypes"`},
 			RandomExpr: `hs := make(pgtypes.HStore)
                 for i := 0; i < f.IntBetween(1, 5); i++ {
                     arr[random_string(f)] = null.FromCond(random_string(f), f.Bool())
@@ -362,7 +362,7 @@ func Types() drivers.Types {
 		"types.JSON[json.RawMessage]": {
 			Imports: importers.List{
 				`"encoding/json"`,
-				`"github.com/j0urneyk/bob/types"`,
+				`"github.com/j0urneyK/bob/types"`,
 			},
 			RandomExpr: `s := &bytes.Buffer{}
                 s.WriteRune('{')

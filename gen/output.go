@@ -16,7 +16,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/j0urneyk/bob/gen/importers"
+	"github.com/j0urneyK/bob/gen/importers"
 	"mvdan.cc/gofumpt/format"
 )
 

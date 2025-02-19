@@ -13,11 +13,11 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/j0urneyk/bob/gen"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
-	testfiles "github.com/j0urneyk/bob/test/files"
-	testgen "github.com/j0urneyk/bob/test/gen"
+	"github.com/j0urneyK/bob/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
+	testfiles "github.com/j0urneyK/bob/test/files"
+	testgen "github.com/j0urneyK/bob/test/gen"
 	"modernc.org/sqlite"
 )
 

@@ -3,7 +3,7 @@ package gen
 import (
 	"fmt"
 
-	"github.com/j0urneyk/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen/drivers"
 )
 
 func isPrimitiveType(name string) bool {

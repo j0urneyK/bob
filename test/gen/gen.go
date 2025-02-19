@@ -16,13 +16,13 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/j0urneyk/bob/gen"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
 	"github.com/nsf/jsondiff"
 )
 
-const module = "github.com/j0urneyk/bob/orm/bob-gen-test"
+const module = "github.com/j0urneyK/bob/orm/bob-gen-test"
 
 var rgxHasSpaces = regexp.MustCompile(`^\s+`)
 
@@ -184,7 +184,7 @@ func testDriver[T, C, I any](t *testing.T, dst string, tpls *helpers.Templates, 
 	}
 
 	//nolint:gosec
-	cmd = exec.Command("go", "mod", "edit", fmt.Sprintf("-replace=github.com/j0urneyk/bob=%s", filepath.Dir(modPath)))
+	cmd = exec.Command("go", "mod", "edit", fmt.Sprintf("-replace=github.com/j0urneyK/bob=%s", filepath.Dir(modPath)))
 	cmd.Dir = dst
 	cmd.Stderr = buf
 

@@ -9,8 +9,8 @@ import (
 	"unicode"
 
 	"github.com/Masterminds/sprig/v3"
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/gen/importers"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen/importers"
 	"github.com/volatiletech/strmangle"
 )
 

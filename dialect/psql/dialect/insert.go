@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/clause"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/clause"
 )
 
 // Trying to represent the select query structure as documented in

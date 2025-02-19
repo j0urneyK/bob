@@ -1,9 +1,9 @@
 package psql
 
 import (
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/expr"
-	"github.com/j0urneyk/bob/mods"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/expr"
+	"github.com/j0urneyK/bob/mods"
 )
 
 type Filterable interface {

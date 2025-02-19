@@ -3,13 +3,13 @@ package psql_test
 import (
 	"testing"
 
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/dialect/psql"
-	"github.com/j0urneyk/bob/dialect/psql/dialect"
-	"github.com/j0urneyk/bob/dialect/psql/fm"
-	"github.com/j0urneyk/bob/dialect/psql/sm"
-	"github.com/j0urneyk/bob/dialect/psql/wm"
-	testutils "github.com/j0urneyk/bob/test/utils"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/dialect/psql"
+	"github.com/j0urneyK/bob/dialect/psql/dialect"
+	"github.com/j0urneyK/bob/dialect/psql/fm"
+	"github.com/j0urneyK/bob/dialect/psql/sm"
+	"github.com/j0urneyK/bob/dialect/psql/wm"
+	testutils "github.com/j0urneyK/bob/test/utils"
 	pg_query "github.com/wasilibs/go-pgquery"
 )
 

@@ -13,9 +13,9 @@ import (
 
 	"github.com/aarondl/opt/omit"
 	"github.com/google/go-cmp/cmp"
-	"github.com/j0urneyk/bob"
-	"github.com/j0urneyk/bob/expr"
-	"github.com/j0urneyk/bob/internal/mappings"
+	"github.com/j0urneyK/bob"
+	"github.com/j0urneyK/bob/expr"
+	"github.com/j0urneyK/bob/internal/mappings"
 )
 
 type User struct {

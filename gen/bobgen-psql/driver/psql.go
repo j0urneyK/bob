@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/gen/importers"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen/importers"
 	"github.com/lib/pq"
 	"github.com/stephenafamo/scan"
 	"github.com/stephenafamo/scan/stdscan"

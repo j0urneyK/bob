@@ -3,7 +3,7 @@ package orm
 import (
 	"context"
 
-	"github.com/j0urneyk/bob"
+	"github.com/j0urneyK/bob"
 	"github.com/stephenafamo/scan"
 )
 

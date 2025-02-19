@@ -5,13 +5,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/j0urneyk/bob/gen"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/gen/importers"
+	"github.com/j0urneyK/bob/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen/importers"
 )
 
-const pgtypesImport = `"github.com/j0urneyk/bob/types/pgtypes"`
+const pgtypesImport = `"github.com/j0urneyK/bob/types/pgtypes"`
 
 type colInfo struct {
 	// Postgres only extension bits

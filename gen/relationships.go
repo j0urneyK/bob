@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/j0urneyk/bob/gen/drivers"
-	"github.com/j0urneyk/bob/internal"
-	"github.com/j0urneyk/bob/orm"
+	"github.com/j0urneyK/bob/gen/drivers"
+	"github.com/j0urneyK/bob/internal"
+	"github.com/j0urneyK/bob/orm"
 )
 
 const selfJoinSuffix = "__self_join_reverse"

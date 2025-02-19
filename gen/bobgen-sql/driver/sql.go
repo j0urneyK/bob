@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 
 	embeddedpostgres "github.com/fergusstrange/embedded-postgres"
-	"github.com/j0urneyk/bob/gen"
-	helpers "github.com/j0urneyk/bob/gen/bobgen-helpers"
-	psqlDriver "github.com/j0urneyk/bob/gen/bobgen-psql/driver"
-	sqliteDriver "github.com/j0urneyk/bob/gen/bobgen-sqlite/driver"
-	"github.com/j0urneyk/bob/gen/drivers"
+	"github.com/j0urneyK/bob/gen"
+	helpers "github.com/j0urneyK/bob/gen/bobgen-helpers"
+	psqlDriver "github.com/j0urneyK/bob/gen/bobgen-psql/driver"
+	sqliteDriver "github.com/j0urneyK/bob/gen/bobgen-sqlite/driver"
+	"github.com/j0urneyK/bob/gen/drivers"
 	"github.com/lib/pq"
 )
 
